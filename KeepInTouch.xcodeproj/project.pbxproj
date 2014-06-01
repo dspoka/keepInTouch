@@ -21,6 +21,10 @@
 		DA16D9B6193B17C2009452CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA16D998193B17C2009452CC /* UIKit.framework */; };
 		DA16D9BE193B17C2009452CC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA16D9BC193B17C2009452CC /* InfoPlist.strings */; };
 		DA16D9C0193B17C2009452CC /* KeepInTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA16D9BF193B17C2009452CC /* KeepInTouchTests.m */; };
+		DA16D9CB193B17DE009452CC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA16D9C9193B17DE009452CC /* AddressBook.framework */; };
+		DA16D9CC193B17DE009452CC /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA16D9CA193B17DE009452CC /* AddressBookUI.framework */; };
+		DA16D9CF193B1819009452CC /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA16D9CD193B1819009452CC /* EventKit.framework */; };
+		DA16D9D0193B1819009452CC /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA16D9CE193B1819009452CC /* EventKitUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		DA16D9BB193B17C2009452CC /* KeepInTouchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeepInTouchTests-Info.plist"; sourceTree = "<group>"; };
 		DA16D9BD193B17C2009452CC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DA16D9BF193B17C2009452CC /* KeepInTouchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeepInTouchTests.m; sourceTree = "<group>"; };
+		DA16D9C9193B17DE009452CC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		DA16D9CA193B17DE009452CC /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		DA16D9CD193B1819009452CC /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		DA16D9CE193B1819009452CC /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA16D9CF193B1819009452CC /* EventKit.framework in Frameworks */,
+				DA16D9D0193B1819009452CC /* EventKitUI.framework in Frameworks */,
+				DA16D9CB193B17DE009452CC /* AddressBook.framework in Frameworks */,
+				DA16D9CC193B17DE009452CC /* AddressBookUI.framework in Frameworks */,
 				DA16D997193B17C2009452CC /* CoreGraphics.framework in Frameworks */,
 				DA16D999193B17C2009452CC /* UIKit.framework in Frameworks */,
 				DA16D995193B17C2009452CC /* Foundation.framework in Frameworks */,
@@ -101,6 +113,10 @@
 		DA16D993193B17C2009452CC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DA16D9CD193B1819009452CC /* EventKit.framework */,
+				DA16D9CE193B1819009452CC /* EventKitUI.framework */,
+				DA16D9C9193B17DE009452CC /* AddressBook.framework */,
+				DA16D9CA193B17DE009452CC /* AddressBookUI.framework */,
 				DA16D994193B17C2009452CC /* Foundation.framework */,
 				DA16D996193B17C2009452CC /* CoreGraphics.framework */,
 				DA16D998193B17C2009452CC /* UIKit.framework */,
